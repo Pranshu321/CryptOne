@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, BrowserRouter, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import { Layout, Typography, Space } from 'antd';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -7,7 +7,6 @@ import Exchanges from './components/pages/Exchanges';
 import News from './components/pages/News';
 import CryptoWorld from './components/pages/CryptoWorld';
 import CryptoDetails from './components/pages/CryptoDetails';
-import { Footer } from 'antd/lib/layout/layout';
 
 function App() {
   return (
@@ -19,11 +18,11 @@ function App() {
         <Layout>
           <div className="routes">
             <Routes>
-              <Route path='/' element={Home} />
-              <Route path='/exchanges' element={Exchanges} />
-              <Route path='/cryptocurrencies' element={CryptoWorld} />
-              <Route path='/news' element={News} />
-              <Route path='/crypto/:coinid' element={CryptoDetails} />
+              <Route path='/' element={<Home />} />
+              <Route path='/exchanges' element={<Exchanges />} />
+              <Route path='/cryptocurrencies' element={<CryptoWorld />} />
+              <Route path='/news' element={<News />} />
+              <Route path='/crypto/:coinId' element={<CryptoDetails />} />
             </Routes>
           </div>
         </Layout>
