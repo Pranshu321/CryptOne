@@ -26,22 +26,19 @@ const Navbar = () => {
     }, [screenSize]);
 
     return (
-        <div className="nav-container">
+        <div style={{ background: "black" }} className="nav-container">
             <div className="logo-container">
                 <Avatar src={"https://i.ibb.co/Z11pcGG/cryptocurrency.png"} size="large" />
                 <Typography.Title level={2} className="logo"><Link to="/" style={{ color: "white", fontWeight: "600" }}>CryptOne</Link></Typography.Title>
                 <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
             </div>
             {activeMenu && (
-                <Menu theme="dark">
+                <Menu style={{ background: "black" }} theme="dark">
                     <Menu.Item icon={<HomeOutlined />}>
                         <Link style={{ color: "white", fontWeight: "500" }} to="/">Home</Link>
                     </Menu.Item>
                     <Menu.Item icon={<FundOutlined />}>
                         <Link style={{ color: "white", fontWeight: "500" }} to="/cryptocurrencies">Crypto Currencies</Link>
-                    </Menu.Item>
-                    <Menu.Item icon={<MoneyCollectOutlined />}>
-                        <Link style={{ color: "white", fontWeight: "500" }} to="/exchanges">CO Exchanges</Link>
                     </Menu.Item>
                     <Menu.Item icon={<BulbOutlined />}>
                         <Link style={{ color: "white", fontWeight: "500" }} to="/news">Crypto World</Link>
