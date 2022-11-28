@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <div style={{ background: "black" }} className="nav-container">
             <div className="logo-container">
-                <Avatar src={"https://i.ibb.co/Z11pcGG/cryptocurrency.png"} size="large" />
+                <Avatar style={{ marginBottom: "10px" }} src={"https://user-images.githubusercontent.com/86917304/204307859-2d57a269-26c9-470b-8fd0-3a19a5ad0744.png"} size="large" />
                 <Typography.Title level={2} className="logo"><Link to="/" style={{ color: "white", fontWeight: "600" }}>CryptOne</Link></Typography.Title>
                 <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
             </div>
