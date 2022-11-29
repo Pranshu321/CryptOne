@@ -45,7 +45,7 @@ A few of the things you can do with CryptOne:
 
 ## Feedback
 
-Feel free to send us feedback on [mail](mailto:pranshujain0111@gmail.com) or [Raise an issue](https://github.com/Pranshu321/CryptOne/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+Feel free to send us feedback on [mail](mailto:pranshujain0111@gmail.com) or [Raise an issue](https://github.com/Pranshu321/CryptOne/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./Contributing.md)!
 
 ## Build Process
 
