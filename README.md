@@ -1,6 +1,6 @@
 <h1 align="center"> CryptOne </h1> <br>
 <p align="center">
-  <a href="https://crypt-one.vercel.app/">
+  <a target="_blank href="https://crypt-one.vercel.app/">
     <img alt="GitPoint" title="GitPoint" src="https://user-images.githubusercontent.com/86917304/204284003-c3291f07-706d-49df-98d6-9e2a37590afc.png" width="200">
   </a>
 </p>
