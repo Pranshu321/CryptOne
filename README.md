@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<h1 align="center"> CryptOne </h1> <br>
+<p align="center">
+  <a href="https://crypt-one.vercel.app/">
+    <img alt="GitPoint" title="GitPoint" src="https://user-images.githubusercontent.com/86917304/204284003-c3291f07-706d-49df-98d6-9e2a37590afc.png" width="200">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  All your cryptos knowledge are here.
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
-### `yarn start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Feedback](#feedback)
+- [Contributors](#contributors)
+- [Build Process](#build-process)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Introduction
+![image](https://user-images.githubusercontent.com/86917304/204537842-7a24392d-9472-4fdf-890c-33038e3cbd0f.png)
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A few of the things you can do with CryptOne:
 
-### `yarn build`
+* View coin activity.
+* Full information of all crypto coins present.
+* Live stats about the current crypto world
+* Apply labels and get that particular feed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+  <img src = "https://user-images.githubusercontent.com/86917304/204538355-2f41470a-11e5-430e-b0c1-a1eb4cd5b2f0.png" width=700>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <img src = "https://user-images.githubusercontent.com/86917304/204538452-32b7c152-f586-4c8d-a89c-1f05cae9f797.png" width=700>
+</p>
 
-### `yarn eject`
+## Feedback
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to send us feedback on [mail](mailto:pranshujain0111@gmail.com) or [Raise an issue](https://github.com/Pranshu321/CryptOne/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Build Process
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Follow the [React Guide](https://facebook.github.io/react-native/docs/getting-started.html) for getting started building a project with native code.
+- Clone or download the repo
+- `yarn` to install dependencies
+- `yarn start` to run.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Development Keys**: The `RAPID_API_KEY` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys.
